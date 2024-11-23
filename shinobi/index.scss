@@ -1,0 +1,14 @@
+//variables and functions
+@use "variables";
+@use "functions";
+//base & layout
+@use "base";
+
+//colors
+@use "colors";
+//components (button, card, navbar)
+@use "components/card";
+@use "components/button";
+
+//utilities (margin, padding, opacity)
+@use "utilities";

@@ -1,0 +1,2511 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-primary {
+  color: #326dee;
+}
+
+.bg-primary {
+  background-color: #326dee;
+}
+
+.text-hover-bg-primary:hover {
+  color: #326dee;
+}
+
+.bg-primary-light-1 {
+  background-color: rgb(73.5472972973, 125.7702702703, 239.9527027027);
+}
+
+.text-hover-primary-light-1:hover {
+  color: rgb(73.5472972973, 125.7702702703, 239.9527027027);
+}
+
+.bg-primary-light-2 {
+  background-color: rgb(97.0945945946, 142.5405405405, 241.9054054054);
+}
+
+.text-hover-primary-light-2:hover {
+  color: rgb(97.0945945946, 142.5405405405, 241.9054054054);
+}
+
+.bg-primary-light-3 {
+  background-color: rgb(120.6418918919, 159.3108108108, 243.8581081081);
+}
+
+.text-hover-primary-light-3:hover {
+  color: rgb(120.6418918919, 159.3108108108, 243.8581081081);
+}
+
+.bg-primary-light-4 {
+  background-color: rgb(144.1891891892, 176.0810810811, 245.8108108108);
+}
+
+.text-hover-primary-light-4:hover {
+  color: rgb(144.1891891892, 176.0810810811, 245.8108108108);
+}
+
+.bg-primary-light-5 {
+  background-color: rgb(167.7364864865, 192.8513513514, 247.7635135135);
+}
+
+.text-hover-primary-light-5:hover {
+  color: rgb(167.7364864865, 192.8513513514, 247.7635135135);
+}
+
+.bg-primary-light-6 {
+  background-color: rgb(191.2837837838, 209.6216216216, 249.7162162162);
+}
+
+.text-hover-primary-light-6:hover {
+  color: rgb(191.2837837838, 209.6216216216, 249.7162162162);
+}
+
+.bg-primary-light-7 {
+  background-color: rgb(214.8310810811, 226.3918918919, 251.6689189189);
+}
+
+.text-hover-primary-light-7:hover {
+  color: rgb(214.8310810811, 226.3918918919, 251.6689189189);
+}
+
+.bg-primary-light-8 {
+  background-color: rgb(238.3783783784, 243.1621621622, 253.6216216216);
+}
+
+.text-hover-primary-light-8:hover {
+  color: rgb(238.3783783784, 243.1621621622, 253.6216216216);
+}
+
+.bg-primary-dark-1 {
+  background-color: rgb(26.4527027027, 92.2297297297, 236.0472972973);
+}
+
+.text-hover-primary-dark-1:hover {
+  color: rgb(26.4527027027, 92.2297297297, 236.0472972973);
+}
+
+.bg-primary-dark-2 {
+  background-color: rgb(18.1486486486, 81.1351351351, 218.8513513514);
+}
+
+.text-hover-primary-dark-2:hover {
+  color: rgb(18.1486486486, 81.1351351351, 218.8513513514);
+}
+
+.bg-primary-dark-3 {
+  background-color: rgb(16.1959459459, 72.4054054054, 195.3040540541);
+}
+
+.text-hover-primary-dark-3:hover {
+  color: rgb(16.1959459459, 72.4054054054, 195.3040540541);
+}
+
+.bg-primary-dark-4 {
+  background-color: rgb(14.2432432432, 63.6756756757, 171.7567567568);
+}
+
+.text-hover-primary-dark-4:hover {
+  color: rgb(14.2432432432, 63.6756756757, 171.7567567568);
+}
+
+.bg-primary-dark-5 {
+  background-color: rgb(12.2905405405, 54.9459459459, 148.2094594595);
+}
+
+.text-hover-primary-dark-5:hover {
+  color: rgb(12.2905405405, 54.9459459459, 148.2094594595);
+}
+
+.bg-primary-dark-6 {
+  background-color: rgb(10.3378378378, 46.2162162162, 124.6621621622);
+}
+
+.text-hover-primary-dark-6:hover {
+  color: rgb(10.3378378378, 46.2162162162, 124.6621621622);
+}
+
+.bg-primary-dark-7 {
+  background-color: rgb(8.3851351351, 37.4864864865, 101.1148648649);
+}
+
+.text-hover-primary-dark-7:hover {
+  color: rgb(8.3851351351, 37.4864864865, 101.1148648649);
+}
+
+.bg-primary-dark-8 {
+  background-color: rgb(6.4324324324, 28.7567567568, 77.5675675676);
+}
+
+.text-hover-primary-dark-8:hover {
+  color: rgb(6.4324324324, 28.7567567568, 77.5675675676);
+}
+
+.text-secondary {
+  color: #1ac888;
+}
+
+.bg-secondary {
+  background-color: #1ac888;
+}
+
+.text-hover-bg-secondary:hover {
+  color: #1ac888;
+}
+
+.bg-secondary-light-1 {
+  background-color: rgb(28.9336283186, 222.5663716814, 151.3451327434);
+}
+
+.text-hover-secondary-light-1:hover {
+  color: rgb(28.9336283186, 222.5663716814, 151.3451327434);
+}
+
+.bg-secondary-light-2 {
+  background-color: rgb(48.8053097345, 228.1946902655, 162.2123893805);
+}
+
+.text-hover-secondary-light-2:hover {
+  color: rgb(48.8053097345, 228.1946902655, 162.2123893805);
+}
+
+.bg-secondary-light-3 {
+  background-color: rgb(71.3716814159, 231.1283185841, 172.3672566372);
+}
+
+.text-hover-secondary-light-3:hover {
+  color: rgb(71.3716814159, 231.1283185841, 172.3672566372);
+}
+
+.bg-secondary-light-4 {
+  background-color: rgb(93.9380530973, 234.0619469027, 182.5221238938);
+}
+
+.text-hover-secondary-light-4:hover {
+  color: rgb(93.9380530973, 234.0619469027, 182.5221238938);
+}
+
+.bg-secondary-light-5 {
+  background-color: rgb(116.5044247788, 236.9955752212, 192.6769911504);
+}
+
+.text-hover-secondary-light-5:hover {
+  color: rgb(116.5044247788, 236.9955752212, 192.6769911504);
+}
+
+.bg-secondary-light-6 {
+  background-color: rgb(139.0707964602, 239.9292035398, 202.8318584071);
+}
+
+.text-hover-secondary-light-6:hover {
+  color: rgb(139.0707964602, 239.9292035398, 202.8318584071);
+}
+
+.bg-secondary-light-7 {
+  background-color: rgb(161.6371681416, 242.8628318584, 212.9867256637);
+}
+
+.text-hover-secondary-light-7:hover {
+  color: rgb(161.6371681416, 242.8628318584, 212.9867256637);
+}
+
+.bg-secondary-light-8 {
+  background-color: rgb(184.203539823, 245.796460177, 223.1415929204);
+}
+
+.text-hover-secondary-light-8:hover {
+  color: rgb(184.203539823, 245.796460177, 223.1415929204);
+}
+
+.bg-secondary-dark-1 {
+  background-color: rgb(23.0663716814, 177.4336283186, 120.6548672566);
+}
+
+.text-hover-secondary-dark-1:hover {
+  color: rgb(23.0663716814, 177.4336283186, 120.6548672566);
+}
+
+.bg-secondary-dark-2 {
+  background-color: rgb(20.1327433628, 154.8672566372, 105.3097345133);
+}
+
+.text-hover-secondary-dark-2:hover {
+  color: rgb(20.1327433628, 154.8672566372, 105.3097345133);
+}
+
+.bg-secondary-dark-3 {
+  background-color: rgb(17.1991150442, 132.3008849558, 89.9646017699);
+}
+
+.text-hover-secondary-dark-3:hover {
+  color: rgb(17.1991150442, 132.3008849558, 89.9646017699);
+}
+
+.bg-secondary-dark-4 {
+  background-color: rgb(14.2654867257, 109.7345132743, 74.6194690265);
+}
+
+.text-hover-secondary-dark-4:hover {
+  color: rgb(14.2654867257, 109.7345132743, 74.6194690265);
+}
+
+.bg-secondary-dark-5 {
+  background-color: rgb(11.3318584071, 87.1681415929, 59.2743362832);
+}
+
+.text-hover-secondary-dark-5:hover {
+  color: rgb(11.3318584071, 87.1681415929, 59.2743362832);
+}
+
+.bg-secondary-dark-6 {
+  background-color: rgb(8.3982300885, 64.6017699115, 43.9292035398);
+}
+
+.text-hover-secondary-dark-6:hover {
+  color: rgb(8.3982300885, 64.6017699115, 43.9292035398);
+}
+
+.bg-secondary-dark-7 {
+  background-color: rgb(5.4646017699, 42.0353982301, 28.5840707965);
+}
+
+.text-hover-secondary-dark-7:hover {
+  color: rgb(5.4646017699, 42.0353982301, 28.5840707965);
+}
+
+.bg-secondary-dark-8 {
+  background-color: rgb(2.5309734513, 19.4690265487, 13.2389380531);
+}
+
+.text-hover-secondary-dark-8:hover {
+  color: rgb(2.5309734513, 19.4690265487, 13.2389380531);
+}
+
+.text-error {
+  color: #dc4c64;
+}
+
+.bg-error {
+  background-color: #dc4c64;
+}
+
+.text-hover-bg-error:hover {
+  color: #dc4c64;
+}
+
+.bg-error-light-1 {
+  background-color: rgb(224.1705607477, 97.3294392523, 118.4696261682);
+}
+
+.text-hover-error-light-1:hover {
+  color: rgb(224.1705607477, 97.3294392523, 118.4696261682);
+}
+
+.bg-error-light-2 {
+  background-color: rgb(228.3411214953, 118.6588785047, 136.9392523364);
+}
+
+.text-hover-error-light-2:hover {
+  color: rgb(228.3411214953, 118.6588785047, 136.9392523364);
+}
+
+.bg-error-light-3 {
+  background-color: rgb(232.511682243, 139.988317757, 155.4088785047);
+}
+
+.text-hover-error-light-3:hover {
+  color: rgb(232.511682243, 139.988317757, 155.4088785047);
+}
+
+.bg-error-light-4 {
+  background-color: rgb(236.6822429907, 161.3177570093, 173.8785046729);
+}
+
+.text-hover-error-light-4:hover {
+  color: rgb(236.6822429907, 161.3177570093, 173.8785046729);
+}
+
+.bg-error-light-5 {
+  background-color: rgb(240.8528037383, 182.6471962617, 192.3481308411);
+}
+
+.text-hover-error-light-5:hover {
+  color: rgb(240.8528037383, 182.6471962617, 192.3481308411);
+}
+
+.bg-error-light-6 {
+  background-color: rgb(245.023364486, 203.976635514, 210.8177570093);
+}
+
+.text-hover-error-light-6:hover {
+  color: rgb(245.023364486, 203.976635514, 210.8177570093);
+}
+
+.bg-error-light-7 {
+  background-color: rgb(249.1939252336, 225.3060747664, 229.2873831776);
+}
+
+.text-hover-error-light-7:hover {
+  color: rgb(249.1939252336, 225.3060747664, 229.2873831776);
+}
+
+.bg-error-light-8 {
+  background-color: rgb(253.3644859813, 246.6355140187, 247.7570093458);
+}
+
+.text-hover-error-light-8:hover {
+  color: rgb(253.3644859813, 246.6355140187, 247.7570093458);
+}
+
+.bg-error-dark-1 {
+  background-color: rgb(215.8294392523, 54.6705607477, 81.5303738318);
+}
+
+.text-hover-error-dark-1:hover {
+  color: rgb(215.8294392523, 54.6705607477, 81.5303738318);
+}
+
+.bg-error-dark-2 {
+  background-color: rgb(204.9299065421, 40.0700934579, 67.546728972);
+}
+
+.text-hover-error-dark-2:hover {
+  color: rgb(204.9299065421, 40.0700934579, 67.546728972);
+}
+
+.bg-error-dark-3 {
+  background-color: rgb(183.6004672897, 35.8995327103, 60.5163551402);
+}
+
+.text-hover-error-dark-3:hover {
+  color: rgb(183.6004672897, 35.8995327103, 60.5163551402);
+}
+
+.bg-error-dark-4 {
+  background-color: rgb(162.2710280374, 31.7289719626, 53.4859813084);
+}
+
+.text-hover-error-dark-4:hover {
+  color: rgb(162.2710280374, 31.7289719626, 53.4859813084);
+}
+
+.bg-error-dark-5 {
+  background-color: rgb(140.941588785, 27.558411215, 46.4556074766);
+}
+
+.text-hover-error-dark-5:hover {
+  color: rgb(140.941588785, 27.558411215, 46.4556074766);
+}
+
+.bg-error-dark-6 {
+  background-color: rgb(119.6121495327, 23.3878504673, 39.4252336449);
+}
+
+.text-hover-error-dark-6:hover {
+  color: rgb(119.6121495327, 23.3878504673, 39.4252336449);
+}
+
+.bg-error-dark-7 {
+  background-color: rgb(98.2827102804, 19.2172897196, 32.3948598131);
+}
+
+.text-hover-error-dark-7:hover {
+  color: rgb(98.2827102804, 19.2172897196, 32.3948598131);
+}
+
+.bg-error-dark-8 {
+  background-color: rgb(76.953271028, 15.046728972, 25.3644859813);
+}
+
+.text-hover-error-dark-8:hover {
+  color: rgb(76.953271028, 15.046728972, 25.3644859813);
+}
+
+.text-info {
+  color: #f6c31c;
+}
+
+.bg-info {
+  background-color: #f6c31c;
+}
+
+.text-hover-bg-info:hover {
+  color: #f6c31c;
+}
+
+.bg-info-light-1 {
+  background-color: rgb(246.9724576271, 201.4830508475, 52.5275423729);
+}
+
+.text-hover-info-light-1:hover {
+  color: rgb(246.9724576271, 201.4830508475, 52.5275423729);
+}
+
+.bg-info-light-2 {
+  background-color: rgb(247.9449152542, 207.9661016949, 77.0550847458);
+}
+
+.text-hover-info-light-2:hover {
+  color: rgb(247.9449152542, 207.9661016949, 77.0550847458);
+}
+
+.bg-info-light-3 {
+  background-color: rgb(248.9173728814, 214.4491525424, 101.5826271186);
+}
+
+.text-hover-info-light-3:hover {
+  color: rgb(248.9173728814, 214.4491525424, 101.5826271186);
+}
+
+.bg-info-light-4 {
+  background-color: rgb(249.8898305085, 220.9322033898, 126.1101694915);
+}
+
+.text-hover-info-light-4:hover {
+  color: rgb(249.8898305085, 220.9322033898, 126.1101694915);
+}
+
+.bg-info-light-5 {
+  background-color: rgb(250.8622881356, 227.4152542373, 150.6377118644);
+}
+
+.text-hover-info-light-5:hover {
+  color: rgb(250.8622881356, 227.4152542373, 150.6377118644);
+}
+
+.bg-info-light-6 {
+  background-color: rgb(251.8347457627, 233.8983050847, 175.1652542373);
+}
+
+.text-hover-info-light-6:hover {
+  color: rgb(251.8347457627, 233.8983050847, 175.1652542373);
+}
+
+.bg-info-light-7 {
+  background-color: rgb(252.8072033898, 240.3813559322, 199.6927966102);
+}
+
+.text-hover-info-light-7:hover {
+  color: rgb(252.8072033898, 240.3813559322, 199.6927966102);
+}
+
+.bg-info-light-8 {
+  background-color: rgb(253.7796610169, 246.8644067797, 224.2203389831);
+}
+
+.text-hover-info-light-8:hover {
+  color: rgb(253.7796610169, 246.8644067797, 224.2203389831);
+}
+
+.bg-info-dark-1 {
+  background-color: rgb(239.0233050847, 185.3220338983, 9.4766949153);
+}
+
+.text-hover-info-dark-1:hover {
+  color: rgb(239.0233050847, 185.3220338983, 9.4766949153);
+}
+
+.bg-info-dark-2 {
+  background-color: rgb(214.4957627119, 166.3050847458, 8.5042372881);
+}
+
+.text-hover-info-dark-2:hover {
+  color: rgb(214.4957627119, 166.3050847458, 8.5042372881);
+}
+
+.bg-info-dark-3 {
+  background-color: rgb(189.968220339, 147.2881355932, 7.531779661);
+}
+
+.text-hover-info-dark-3:hover {
+  color: rgb(189.968220339, 147.2881355932, 7.531779661);
+}
+
+.bg-info-dark-4 {
+  background-color: rgb(165.4406779661, 128.2711864407, 6.5593220339);
+}
+
+.text-hover-info-dark-4:hover {
+  color: rgb(165.4406779661, 128.2711864407, 6.5593220339);
+}
+
+.bg-info-dark-5 {
+  background-color: rgb(140.9131355932, 109.2542372881, 5.5868644068);
+}
+
+.text-hover-info-dark-5:hover {
+  color: rgb(140.9131355932, 109.2542372881, 5.5868644068);
+}
+
+.bg-info-dark-6 {
+  background-color: rgb(116.3855932203, 90.2372881356, 4.6144067797);
+}
+
+.text-hover-info-dark-6:hover {
+  color: rgb(116.3855932203, 90.2372881356, 4.6144067797);
+}
+
+.bg-info-dark-7 {
+  background-color: rgb(91.8580508475, 71.2203389831, 3.6419491525);
+}
+
+.text-hover-info-dark-7:hover {
+  color: rgb(91.8580508475, 71.2203389831, 3.6419491525);
+}
+
+.bg-info-dark-8 {
+  background-color: rgb(67.3305084746, 52.2033898305, 2.6694915254);
+}
+
+.text-hover-info-dark-8:hover {
+  color: rgb(67.3305084746, 52.2033898305, 2.6694915254);
+}
+
+.text-blue {
+  color: #1919e6;
+}
+
+.bg-blue {
+  background-color: #1919e6;
+}
+
+.text-hover-bg-blue:hover {
+  color: #1919e6;
+}
+
+.bg-blue-light-1 {
+  background-color: rgb(48, 48, 232.5);
+}
+
+.text-hover-blue-light-1:hover {
+  color: rgb(48, 48, 232.5);
+}
+
+.bg-blue-light-2 {
+  background-color: #4747eb;
+}
+
+.text-hover-blue-light-2:hover {
+  color: #4747eb;
+}
+
+.bg-blue-light-3 {
+  background-color: rgb(94, 94, 237.5);
+}
+
+.text-hover-blue-light-3:hover {
+  color: rgb(94, 94, 237.5);
+}
+
+.bg-blue-light-4 {
+  background-color: #7575f0;
+}
+
+.text-hover-blue-light-4:hover {
+  color: #7575f0;
+}
+
+.bg-blue-light-5 {
+  background-color: rgb(140, 140, 242.5);
+}
+
+.text-hover-blue-light-5:hover {
+  color: rgb(140, 140, 242.5);
+}
+
+.bg-blue-light-6 {
+  background-color: #a3a3f5;
+}
+
+.text-hover-blue-light-6:hover {
+  color: #a3a3f5;
+}
+
+.bg-blue-light-7 {
+  background-color: rgb(186, 186, 247.5);
+}
+
+.text-hover-blue-light-7:hover {
+  color: rgb(186, 186, 247.5);
+}
+
+.bg-blue-light-8 {
+  background-color: #d1d1fa;
+}
+
+.text-hover-blue-light-8:hover {
+  color: #d1d1fa;
+}
+
+.bg-blue-dark-1 {
+  background-color: rgb(22.5, 22.5, 207);
+}
+
+.text-hover-blue-dark-1:hover {
+  color: rgb(22.5, 22.5, 207);
+}
+
+.bg-blue-dark-2 {
+  background-color: #1414b8;
+}
+
+.text-hover-blue-dark-2:hover {
+  color: #1414b8;
+}
+
+.bg-blue-dark-3 {
+  background-color: rgb(17.5, 17.5, 161);
+}
+
+.text-hover-blue-dark-3:hover {
+  color: rgb(17.5, 17.5, 161);
+}
+
+.bg-blue-dark-4 {
+  background-color: #0f0f8a;
+}
+
+.text-hover-blue-dark-4:hover {
+  color: #0f0f8a;
+}
+
+.bg-blue-dark-5 {
+  background-color: rgb(12.5, 12.5, 115);
+}
+
+.text-hover-blue-dark-5:hover {
+  color: rgb(12.5, 12.5, 115);
+}
+
+.bg-blue-dark-6 {
+  background-color: #0a0a5c;
+}
+
+.text-hover-blue-dark-6:hover {
+  color: #0a0a5c;
+}
+
+.bg-blue-dark-7 {
+  background-color: rgb(7.5, 7.5, 69);
+}
+
+.text-hover-blue-dark-7:hover {
+  color: rgb(7.5, 7.5, 69);
+}
+
+.bg-blue-dark-8 {
+  background-color: #05052e;
+}
+
+.text-hover-blue-dark-8:hover {
+  color: #05052e;
+}
+
+.text-red {
+  color: #e61919;
+}
+
+.bg-red {
+  background-color: #e61919;
+}
+
+.text-hover-bg-red:hover {
+  color: #e61919;
+}
+
+.bg-red-light-1 {
+  background-color: rgb(232.5, 48, 48);
+}
+
+.text-hover-red-light-1:hover {
+  color: rgb(232.5, 48, 48);
+}
+
+.bg-red-light-2 {
+  background-color: #eb4747;
+}
+
+.text-hover-red-light-2:hover {
+  color: #eb4747;
+}
+
+.bg-red-light-3 {
+  background-color: rgb(237.5, 94, 94);
+}
+
+.text-hover-red-light-3:hover {
+  color: rgb(237.5, 94, 94);
+}
+
+.bg-red-light-4 {
+  background-color: #f07575;
+}
+
+.text-hover-red-light-4:hover {
+  color: #f07575;
+}
+
+.bg-red-light-5 {
+  background-color: rgb(242.5, 140, 140);
+}
+
+.text-hover-red-light-5:hover {
+  color: rgb(242.5, 140, 140);
+}
+
+.bg-red-light-6 {
+  background-color: #f5a3a3;
+}
+
+.text-hover-red-light-6:hover {
+  color: #f5a3a3;
+}
+
+.bg-red-light-7 {
+  background-color: rgb(247.5, 186, 186);
+}
+
+.text-hover-red-light-7:hover {
+  color: rgb(247.5, 186, 186);
+}
+
+.bg-red-light-8 {
+  background-color: #fad1d1;
+}
+
+.text-hover-red-light-8:hover {
+  color: #fad1d1;
+}
+
+.bg-red-dark-1 {
+  background-color: rgb(207, 22.5, 22.5);
+}
+
+.text-hover-red-dark-1:hover {
+  color: rgb(207, 22.5, 22.5);
+}
+
+.bg-red-dark-2 {
+  background-color: #b81414;
+}
+
+.text-hover-red-dark-2:hover {
+  color: #b81414;
+}
+
+.bg-red-dark-3 {
+  background-color: rgb(161, 17.5, 17.5);
+}
+
+.text-hover-red-dark-3:hover {
+  color: rgb(161, 17.5, 17.5);
+}
+
+.bg-red-dark-4 {
+  background-color: #8a0f0f;
+}
+
+.text-hover-red-dark-4:hover {
+  color: #8a0f0f;
+}
+
+.bg-red-dark-5 {
+  background-color: rgb(115, 12.5, 12.5);
+}
+
+.text-hover-red-dark-5:hover {
+  color: rgb(115, 12.5, 12.5);
+}
+
+.bg-red-dark-6 {
+  background-color: #5c0a0a;
+}
+
+.text-hover-red-dark-6:hover {
+  color: #5c0a0a;
+}
+
+.bg-red-dark-7 {
+  background-color: rgb(69, 7.5, 7.5);
+}
+
+.text-hover-red-dark-7:hover {
+  color: rgb(69, 7.5, 7.5);
+}
+
+.bg-red-dark-8 {
+  background-color: #2e0505;
+}
+
+.text-hover-red-dark-8:hover {
+  color: #2e0505;
+}
+
+.text-orange {
+  color: #e67e22;
+}
+
+.bg-orange {
+  background-color: #e67e22;
+}
+
+.text-hover-bg-orange:hover {
+  color: #e67e22;
+}
+
+.bg-orange-light-1 {
+  background-color: rgb(232.5914634146, 139.3719512195, 56.9085365854);
+}
+
+.text-hover-orange-light-1:hover {
+  color: rgb(232.5914634146, 139.3719512195, 56.9085365854);
+}
+
+.bg-orange-light-2 {
+  background-color: rgb(235.1829268293, 152.743902439, 79.8170731707);
+}
+
+.text-hover-orange-light-2:hover {
+  color: rgb(235.1829268293, 152.743902439, 79.8170731707);
+}
+
+.bg-orange-light-3 {
+  background-color: rgb(237.7743902439, 166.1158536585, 102.7256097561);
+}
+
+.text-hover-orange-light-3:hover {
+  color: rgb(237.7743902439, 166.1158536585, 102.7256097561);
+}
+
+.bg-orange-light-4 {
+  background-color: rgb(240.3658536585, 179.487804878, 125.6341463415);
+}
+
+.text-hover-orange-light-4:hover {
+  color: rgb(240.3658536585, 179.487804878, 125.6341463415);
+}
+
+.bg-orange-light-5 {
+  background-color: rgb(242.9573170732, 192.8597560976, 148.5426829268);
+}
+
+.text-hover-orange-light-5:hover {
+  color: rgb(242.9573170732, 192.8597560976, 148.5426829268);
+}
+
+.bg-orange-light-6 {
+  background-color: rgb(245.5487804878, 206.2317073171, 171.4512195122);
+}
+
+.text-hover-orange-light-6:hover {
+  color: rgb(245.5487804878, 206.2317073171, 171.4512195122);
+}
+
+.bg-orange-light-7 {
+  background-color: rgb(248.1402439024, 219.6036585366, 194.3597560976);
+}
+
+.text-hover-orange-light-7:hover {
+  color: rgb(248.1402439024, 219.6036585366, 194.3597560976);
+}
+
+.bg-orange-light-8 {
+  background-color: rgb(250.7317073171, 232.9756097561, 217.2682926829);
+}
+
+.text-hover-orange-light-8:hover {
+  color: rgb(250.7317073171, 232.9756097561, 217.2682926829);
+}
+
+.bg-orange-dark-1 {
+  background-color: rgb(214.262195122, 113.4329268293, 24.237804878);
+}
+
+.text-hover-orange-dark-1:hover {
+  color: rgb(214.262195122, 113.4329268293, 24.237804878);
+}
+
+.bg-orange-dark-2 {
+  background-color: rgb(191.3536585366, 101.3048780488, 21.6463414634);
+}
+
+.text-hover-orange-dark-2:hover {
+  color: rgb(191.3536585366, 101.3048780488, 21.6463414634);
+}
+
+.bg-orange-dark-3 {
+  background-color: rgb(168.4451219512, 89.1768292683, 19.0548780488);
+}
+
+.text-hover-orange-dark-3:hover {
+  color: rgb(168.4451219512, 89.1768292683, 19.0548780488);
+}
+
+.bg-orange-dark-4 {
+  background-color: rgb(145.5365853659, 77.0487804878, 16.4634146341);
+}
+
+.text-hover-orange-dark-4:hover {
+  color: rgb(145.5365853659, 77.0487804878, 16.4634146341);
+}
+
+.bg-orange-dark-5 {
+  background-color: rgb(122.6280487805, 64.9207317073, 13.8719512195);
+}
+
+.text-hover-orange-dark-5:hover {
+  color: rgb(122.6280487805, 64.9207317073, 13.8719512195);
+}
+
+.bg-orange-dark-6 {
+  background-color: rgb(99.7195121951, 52.7926829268, 11.2804878049);
+}
+
+.text-hover-orange-dark-6:hover {
+  color: rgb(99.7195121951, 52.7926829268, 11.2804878049);
+}
+
+.bg-orange-dark-7 {
+  background-color: rgb(76.8109756098, 40.6646341463, 8.6890243902);
+}
+
+.text-hover-orange-dark-7:hover {
+  color: rgb(76.8109756098, 40.6646341463, 8.6890243902);
+}
+
+.bg-orange-dark-8 {
+  background-color: rgb(53.9024390244, 28.5365853659, 6.0975609756);
+}
+
+.text-hover-orange-dark-8:hover {
+  color: rgb(53.9024390244, 28.5365853659, 6.0975609756);
+}
+
+.text-yellow {
+  color: #e6e619;
+}
+
+.bg-yellow {
+  background-color: #e6e619;
+}
+
+.text-hover-bg-yellow:hover {
+  color: #e6e619;
+}
+
+.bg-yellow-light-1 {
+  background-color: rgb(232.5, 232.5, 48);
+}
+
+.text-hover-yellow-light-1:hover {
+  color: rgb(232.5, 232.5, 48);
+}
+
+.bg-yellow-light-2 {
+  background-color: #ebeb47;
+}
+
+.text-hover-yellow-light-2:hover {
+  color: #ebeb47;
+}
+
+.bg-yellow-light-3 {
+  background-color: rgb(237.5, 237.5, 94);
+}
+
+.text-hover-yellow-light-3:hover {
+  color: rgb(237.5, 237.5, 94);
+}
+
+.bg-yellow-light-4 {
+  background-color: #f0f075;
+}
+
+.text-hover-yellow-light-4:hover {
+  color: #f0f075;
+}
+
+.bg-yellow-light-5 {
+  background-color: rgb(242.5, 242.5, 140);
+}
+
+.text-hover-yellow-light-5:hover {
+  color: rgb(242.5, 242.5, 140);
+}
+
+.bg-yellow-light-6 {
+  background-color: #f5f5a3;
+}
+
+.text-hover-yellow-light-6:hover {
+  color: #f5f5a3;
+}
+
+.bg-yellow-light-7 {
+  background-color: rgb(247.5, 247.5, 186);
+}
+
+.text-hover-yellow-light-7:hover {
+  color: rgb(247.5, 247.5, 186);
+}
+
+.bg-yellow-light-8 {
+  background-color: #fafad1;
+}
+
+.text-hover-yellow-light-8:hover {
+  color: #fafad1;
+}
+
+.bg-yellow-dark-1 {
+  background-color: rgb(207, 207, 22.5);
+}
+
+.text-hover-yellow-dark-1:hover {
+  color: rgb(207, 207, 22.5);
+}
+
+.bg-yellow-dark-2 {
+  background-color: #b8b814;
+}
+
+.text-hover-yellow-dark-2:hover {
+  color: #b8b814;
+}
+
+.bg-yellow-dark-3 {
+  background-color: rgb(161, 161, 17.5);
+}
+
+.text-hover-yellow-dark-3:hover {
+  color: rgb(161, 161, 17.5);
+}
+
+.bg-yellow-dark-4 {
+  background-color: #8a8a0f;
+}
+
+.text-hover-yellow-dark-4:hover {
+  color: #8a8a0f;
+}
+
+.bg-yellow-dark-5 {
+  background-color: rgb(115, 115, 12.5);
+}
+
+.text-hover-yellow-dark-5:hover {
+  color: rgb(115, 115, 12.5);
+}
+
+.bg-yellow-dark-6 {
+  background-color: #5c5c0a;
+}
+
+.text-hover-yellow-dark-6:hover {
+  color: #5c5c0a;
+}
+
+.bg-yellow-dark-7 {
+  background-color: rgb(69, 69, 7.5);
+}
+
+.text-hover-yellow-dark-7:hover {
+  color: rgb(69, 69, 7.5);
+}
+
+.bg-yellow-dark-8 {
+  background-color: #2e2e05;
+}
+
+.text-hover-yellow-dark-8:hover {
+  color: #2e2e05;
+}
+
+.text-green {
+  color: #19e635;
+}
+
+.bg-green {
+  background-color: #19e635;
+}
+
+.text-hover-bg-green:hover {
+  color: #19e635;
+}
+
+.bg-green-light-1 {
+  background-color: rgb(48, 232.5, 73.2);
+}
+
+.text-hover-green-light-1:hover {
+  color: rgb(48, 232.5, 73.2);
+}
+
+.bg-green-light-2 {
+  background-color: rgb(71, 235, 93.4);
+}
+
+.text-hover-green-light-2:hover {
+  color: rgb(71, 235, 93.4);
+}
+
+.bg-green-light-3 {
+  background-color: rgb(94, 237.5, 113.6);
+}
+
+.text-hover-green-light-3:hover {
+  color: rgb(94, 237.5, 113.6);
+}
+
+.bg-green-light-4 {
+  background-color: rgb(117, 240, 133.8);
+}
+
+.text-hover-green-light-4:hover {
+  color: rgb(117, 240, 133.8);
+}
+
+.bg-green-light-5 {
+  background-color: rgb(140, 242.5, 154);
+}
+
+.text-hover-green-light-5:hover {
+  color: rgb(140, 242.5, 154);
+}
+
+.bg-green-light-6 {
+  background-color: rgb(163, 245, 174.2);
+}
+
+.text-hover-green-light-6:hover {
+  color: rgb(163, 245, 174.2);
+}
+
+.bg-green-light-7 {
+  background-color: rgb(186, 247.5, 194.4);
+}
+
+.text-hover-green-light-7:hover {
+  color: rgb(186, 247.5, 194.4);
+}
+
+.bg-green-light-8 {
+  background-color: rgb(209, 250, 214.6);
+}
+
+.text-hover-green-light-8:hover {
+  color: rgb(209, 250, 214.6);
+}
+
+.bg-green-dark-1 {
+  background-color: rgb(22.5, 207, 47.7);
+}
+
+.text-hover-green-dark-1:hover {
+  color: rgb(22.5, 207, 47.7);
+}
+
+.bg-green-dark-2 {
+  background-color: rgb(20, 184, 42.4);
+}
+
+.text-hover-green-dark-2:hover {
+  color: rgb(20, 184, 42.4);
+}
+
+.bg-green-dark-3 {
+  background-color: rgb(17.5, 161, 37.1);
+}
+
+.text-hover-green-dark-3:hover {
+  color: rgb(17.5, 161, 37.1);
+}
+
+.bg-green-dark-4 {
+  background-color: rgb(15, 138, 31.8);
+}
+
+.text-hover-green-dark-4:hover {
+  color: rgb(15, 138, 31.8);
+}
+
+.bg-green-dark-5 {
+  background-color: rgb(12.5, 115, 26.5);
+}
+
+.text-hover-green-dark-5:hover {
+  color: rgb(12.5, 115, 26.5);
+}
+
+.bg-green-dark-6 {
+  background-color: rgb(10, 92, 21.2);
+}
+
+.text-hover-green-dark-6:hover {
+  color: rgb(10, 92, 21.2);
+}
+
+.bg-green-dark-7 {
+  background-color: rgb(7.5, 69, 15.9);
+}
+
+.text-hover-green-dark-7:hover {
+  color: rgb(7.5, 69, 15.9);
+}
+
+.bg-green-dark-8 {
+  background-color: rgb(5, 46, 10.6);
+}
+
+.text-hover-green-dark-8:hover {
+  color: rgb(5, 46, 10.6);
+}
+
+.text-purple {
+  color: #9900fa;
+}
+
+.bg-purple {
+  background-color: #9900fa;
+}
+
+.text-hover-bg-purple:hover {
+  color: #9900fa;
+}
+
+.bg-purple-light-1 {
+  background-color: rgb(164.014, 20.5, 255);
+}
+
+.text-hover-purple-light-1:hover {
+  color: rgb(164.014, 20.5, 255);
+}
+
+.bg-purple-light-2 {
+  background-color: rgb(173.908, 46, 255);
+}
+
+.text-hover-purple-light-2:hover {
+  color: rgb(173.908, 46, 255);
+}
+
+.bg-purple-light-3 {
+  background-color: rgb(183.802, 71.5, 255);
+}
+
+.text-hover-purple-light-3:hover {
+  color: rgb(183.802, 71.5, 255);
+}
+
+.bg-purple-light-4 {
+  background-color: rgb(193.696, 97, 255);
+}
+
+.text-hover-purple-light-4:hover {
+  color: rgb(193.696, 97, 255);
+}
+
+.bg-purple-light-5 {
+  background-color: rgb(203.59, 122.5, 255);
+}
+
+.text-hover-purple-light-5:hover {
+  color: rgb(203.59, 122.5, 255);
+}
+
+.bg-purple-light-6 {
+  background-color: rgb(213.484, 148, 255);
+}
+
+.text-hover-purple-light-6:hover {
+  color: rgb(213.484, 148, 255);
+}
+
+.bg-purple-light-7 {
+  background-color: rgb(223.378, 173.5, 255);
+}
+
+.text-hover-purple-light-7:hover {
+  color: rgb(223.378, 173.5, 255);
+}
+
+.bg-purple-light-8 {
+  background-color: rgb(233.272, 199, 255);
+}
+
+.text-hover-purple-light-8:hover {
+  color: rgb(233.272, 199, 255);
+}
+
+.bg-purple-dark-1 {
+  background-color: rgb(137.394, 0, 224.5);
+}
+
+.text-hover-purple-dark-1:hover {
+  color: rgb(137.394, 0, 224.5);
+}
+
+.bg-purple-dark-2 {
+  background-color: rgb(121.788, 0, 199);
+}
+
+.text-hover-purple-dark-2:hover {
+  color: rgb(121.788, 0, 199);
+}
+
+.bg-purple-dark-3 {
+  background-color: rgb(106.182, 0, 173.5);
+}
+
+.text-hover-purple-dark-3:hover {
+  color: rgb(106.182, 0, 173.5);
+}
+
+.bg-purple-dark-4 {
+  background-color: rgb(90.576, 0, 148);
+}
+
+.text-hover-purple-dark-4:hover {
+  color: rgb(90.576, 0, 148);
+}
+
+.bg-purple-dark-5 {
+  background-color: rgb(74.97, 0, 122.5);
+}
+
+.text-hover-purple-dark-5:hover {
+  color: rgb(74.97, 0, 122.5);
+}
+
+.bg-purple-dark-6 {
+  background-color: rgb(59.364, 0, 97);
+}
+
+.text-hover-purple-dark-6:hover {
+  color: rgb(59.364, 0, 97);
+}
+
+.bg-purple-dark-7 {
+  background-color: rgb(43.758, 0, 71.5);
+}
+
+.text-hover-purple-dark-7:hover {
+  color: rgb(43.758, 0, 71.5);
+}
+
+.bg-purple-dark-8 {
+  background-color: rgb(28.152, 0, 46);
+}
+
+.text-hover-purple-dark-8:hover {
+  color: rgb(28.152, 0, 46);
+}
+
+.text-gray {
+  color: #808080;
+}
+
+.bg-gray {
+  background-color: #808080;
+}
+
+.text-hover-bg-gray:hover {
+  color: #808080;
+}
+
+.bg-gray-light-1 {
+  background-color: rgb(140.75, 140.75, 140.75);
+}
+
+.text-hover-gray-light-1:hover {
+  color: rgb(140.75, 140.75, 140.75);
+}
+
+.bg-gray-light-2 {
+  background-color: rgb(153.5, 153.5, 153.5);
+}
+
+.text-hover-gray-light-2:hover {
+  color: rgb(153.5, 153.5, 153.5);
+}
+
+.bg-gray-light-3 {
+  background-color: rgb(166.25, 166.25, 166.25);
+}
+
+.text-hover-gray-light-3:hover {
+  color: rgb(166.25, 166.25, 166.25);
+}
+
+.bg-gray-light-4 {
+  background-color: #b3b3b3;
+}
+
+.text-hover-gray-light-4:hover {
+  color: #b3b3b3;
+}
+
+.bg-gray-light-5 {
+  background-color: rgb(191.75, 191.75, 191.75);
+}
+
+.text-hover-gray-light-5:hover {
+  color: rgb(191.75, 191.75, 191.75);
+}
+
+.bg-gray-light-6 {
+  background-color: rgb(204.5, 204.5, 204.5);
+}
+
+.text-hover-gray-light-6:hover {
+  color: rgb(204.5, 204.5, 204.5);
+}
+
+.bg-gray-light-7 {
+  background-color: rgb(217.25, 217.25, 217.25);
+}
+
+.text-hover-gray-light-7:hover {
+  color: rgb(217.25, 217.25, 217.25);
+}
+
+.bg-gray-light-8 {
+  background-color: #e6e6e6;
+}
+
+.text-hover-gray-light-8:hover {
+  color: #e6e6e6;
+}
+
+.bg-gray-dark-1 {
+  background-color: rgb(115.25, 115.25, 115.25);
+}
+
+.text-hover-gray-dark-1:hover {
+  color: rgb(115.25, 115.25, 115.25);
+}
+
+.bg-gray-dark-2 {
+  background-color: rgb(102.5, 102.5, 102.5);
+}
+
+.text-hover-gray-dark-2:hover {
+  color: rgb(102.5, 102.5, 102.5);
+}
+
+.bg-gray-dark-3 {
+  background-color: rgb(89.75, 89.75, 89.75);
+}
+
+.text-hover-gray-dark-3:hover {
+  color: rgb(89.75, 89.75, 89.75);
+}
+
+.bg-gray-dark-4 {
+  background-color: #4d4d4d;
+}
+
+.text-hover-gray-dark-4:hover {
+  color: #4d4d4d;
+}
+
+.bg-gray-dark-5 {
+  background-color: rgb(64.25, 64.25, 64.25);
+}
+
+.text-hover-gray-dark-5:hover {
+  color: rgb(64.25, 64.25, 64.25);
+}
+
+.bg-gray-dark-6 {
+  background-color: rgb(51.5, 51.5, 51.5);
+}
+
+.text-hover-gray-dark-6:hover {
+  color: rgb(51.5, 51.5, 51.5);
+}
+
+.bg-gray-dark-7 {
+  background-color: rgb(38.75, 38.75, 38.75);
+}
+
+.text-hover-gray-dark-7:hover {
+  color: rgb(38.75, 38.75, 38.75);
+}
+
+.bg-gray-dark-8 {
+  background-color: #1a1a1a;
+}
+
+.text-hover-gray-dark-8:hover {
+  color: #1a1a1a;
+}
+
+.text-black {
+  color: #000;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-hover-bg-black:hover {
+  color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-hover-bg-white:hover {
+  color: #fff;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+}
+
+.btn-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #326dee;
+}
+.btn-primary:hover {
+  background-color: rgb(73.5472972973, 125.7702702703, 239.9527027027);
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #326dee;
+}
+.btn-outlined-primary:hover {
+  background-color: #326dee;
+}
+
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #326dee;
+  color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+}
+.btn-complement-primary:hover {
+  color: #326dee;
+  background-color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1ac888;
+}
+.btn-secondary:hover {
+  background-color: rgb(28.9336283186, 222.5663716814, 151.3451327434);
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #1ac888;
+}
+.btn-outlined-secondary:hover {
+  background-color: #1ac888;
+}
+
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1ac888;
+  color: rgb(239.9292035398, 139.0707964602, 176.1681415929);
+}
+.btn-complement-secondary:hover {
+  color: #1ac888;
+  background-color: rgb(239.9292035398, 139.0707964602, 176.1681415929);
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #dc4c64;
+}
+.btn-error:hover {
+  background-color: rgb(224.1705607477, 97.3294392523, 118.4696261682);
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #dc4c64;
+}
+.btn-outlined-error:hover {
+  background-color: #dc4c64;
+}
+
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #dc4c64;
+  color: rgb(203.976635514, 245.023364486, 238.1822429907);
+}
+.btn-complement-error:hover {
+  color: #dc4c64;
+  background-color: rgb(203.976635514, 245.023364486, 238.1822429907);
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #f6c31c;
+}
+.btn-info:hover {
+  background-color: rgb(246.9724576271, 201.4830508475, 52.5275423729);
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #f6c31c;
+}
+.btn-outlined-info:hover {
+  background-color: #f6c31c;
+}
+
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #f6c31c;
+  color: rgb(175.1652542373, 193.1016949153, 251.8347457627);
+}
+.btn-complement-info:hover {
+  color: #f6c31c;
+  background-color: rgb(175.1652542373, 193.1016949153, 251.8347457627);
+}
+
+.btn-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1919e6;
+}
+.btn-blue:hover {
+  background-color: rgb(48, 48, 232.5);
+}
+
+.btn-outlined-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #1919e6;
+}
+.btn-outlined-blue:hover {
+  background-color: #1919e6;
+}
+
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1919e6;
+  color: #f5f5a3;
+}
+.btn-complement-blue:hover {
+  color: #1919e6;
+  background-color: #f5f5a3;
+}
+
+.btn-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e61919;
+}
+.btn-red:hover {
+  background-color: rgb(232.5, 48, 48);
+}
+
+.btn-outlined-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #e61919;
+}
+.btn-outlined-red:hover {
+  background-color: #e61919;
+}
+
+.btn-complement-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e61919;
+  color: #a3f5f5;
+}
+.btn-complement-red:hover {
+  color: #e61919;
+  background-color: #a3f5f5;
+}
+
+.btn-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e67e22;
+}
+.btn-orange:hover {
+  background-color: rgb(232.5914634146, 139.3719512195, 56.9085365854);
+}
+
+.btn-outlined-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #e67e22;
+}
+.btn-outlined-orange:hover {
+  background-color: #e67e22;
+}
+
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e67e22;
+  color: rgb(171.4512195122, 210.7682926829, 245.5487804878);
+}
+.btn-complement-orange:hover {
+  color: #e67e22;
+  background-color: rgb(171.4512195122, 210.7682926829, 245.5487804878);
+}
+
+.btn-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e6e619;
+}
+.btn-yellow:hover {
+  background-color: rgb(232.5, 232.5, 48);
+}
+
+.btn-outlined-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #e6e619;
+}
+.btn-outlined-yellow:hover {
+  background-color: #e6e619;
+}
+
+.btn-complement-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e6e619;
+  color: #a3a3f5;
+}
+.btn-complement-yellow:hover {
+  color: #e6e619;
+  background-color: #a3a3f5;
+}
+
+.btn-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #19e635;
+}
+.btn-green:hover {
+  background-color: rgb(48, 232.5, 73.2);
+}
+
+.btn-outlined-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #19e635;
+}
+.btn-outlined-green:hover {
+  background-color: #19e635;
+}
+
+.btn-complement-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #19e635;
+  color: rgb(245, 163, 233.8);
+}
+.btn-complement-green:hover {
+  color: #19e635;
+  background-color: rgb(245, 163, 233.8);
+}
+
+.btn-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #9900fa;
+}
+.btn-purple:hover {
+  background-color: rgb(164.014, 20.5, 255);
+}
+
+.btn-outlined-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #9900fa;
+}
+.btn-outlined-purple:hover {
+  background-color: #9900fa;
+}
+
+.btn-complement-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #9900fa;
+  color: rgb(189.516, 255, 148);
+}
+.btn-complement-purple:hover {
+  color: #9900fa;
+  background-color: rgb(189.516, 255, 148);
+}
+
+.btn-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #808080;
+}
+.btn-gray:hover {
+  background-color: rgb(140.75, 140.75, 140.75);
+}
+
+.btn-outlined-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #808080;
+}
+.btn-outlined-gray:hover {
+  background-color: #808080;
+}
+
+.btn-complement-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #808080;
+  color: rgb(204.5, 204.5, 204.5);
+}
+.btn-complement-gray:hover {
+  color: #808080;
+  background-color: rgb(204.5, 204.5, 204.5);
+}
+
+.btn-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #000;
+}
+.btn-black:hover {
+  background-color: rgb(12.75, 12.75, 12.75);
+}
+
+.btn-outlined-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.btn-outlined-black:hover {
+  background-color: #000;
+}
+
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #000;
+  color: rgb(76.5, 76.5, 76.5);
+}
+.btn-complement-black:hover {
+  color: #000;
+  background-color: rgb(76.5, 76.5, 76.5);
+}
+
+.btn-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.btn-white:hover {
+  background-color: hsl(0, 0%, 105%);
+}
+
+.btn-outlined-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.btn-outlined-white:hover {
+  background-color: #fff;
+}
+
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  color: hsl(0, 0%, 130%);
+}
+.btn-complement-white:hover {
+  color: #fff;
+  background-color: hsl(0, 0%, 130%);
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4.5rem;
+}
+
+.p-5 {
+  padding: 6rem;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 0.75rem;
+}
+
+.pl-2 {
+  padding-left: 1.5rem;
+}
+
+.pl-3 {
+  padding-left: 3rem;
+}
+
+.pl-4 {
+  padding-left: 4.5rem;
+}
+
+.pl-5 {
+  padding-left: 6rem;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-1 {
+  padding-right: 0.75rem;
+}
+
+.pr-2 {
+  padding-right: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 3rem;
+}
+
+.pr-4 {
+  padding-right: 4.5rem;
+}
+
+.pr-5 {
+  padding-right: 6rem;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-1 {
+  padding-top: 0.75rem;
+}
+
+.pt-2 {
+  padding-top: 1.5rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.pt-4 {
+  padding-top: 4.5rem;
+}
+
+.pt-5 {
+  padding-top: 6rem;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-1 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-2 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
+.pb-4 {
+  padding-bottom: 4.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 6rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.75rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.m-4 {
+  margin: 4.5rem;
+}
+
+.m-5 {
+  margin: 6rem;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-1 {
+  margin-left: 0.75rem;
+}
+
+.ml-2 {
+  margin-left: 1.5rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.ml-4 {
+  margin-left: 4.5rem;
+}
+
+.ml-5 {
+  margin-left: 6rem;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-1 {
+  margin-right: 0.75rem;
+}
+
+.mr-2 {
+  margin-right: 1.5rem;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+
+.mr-4 {
+  margin-right: 4.5rem;
+}
+
+.mr-5 {
+  margin-right: 6rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4.5rem;
+}
+
+.mt-5 {
+  margin-top: 6rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 6rem;
+}
+
+.o-10 {
+  opacity: 0.1;
+}
+
+.o-20 {
+  opacity: 0.2;
+}
+
+.o-30 {
+  opacity: 0.3;
+}
+
+.o-40 {
+  opacity: 0.4;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-60 {
+  opacity: 0.6;
+}
+
+.o-70 {
+  opacity: 0.7;
+}
+
+.o-80 {
+  opacity: 0.8;
+}
+
+.o-90 {
+  opacity: 0.9;
+}
+
+.o-100 {
+  opacity: 1;
+}
+
+.br {
+  border-radius: 20px;
+}
+
+.br-none {
+  border-radius: 0;
+}
+
+.br-xs {
+  border-radius: 5px;
+}
+
+.br-sm {
+  border-radius: 10px;
+}
+
+.br-lg {
+  border-radius: 40px;
+}
+
+.br-full {
+  border-radius: 50%;
+}
+
+.display-n {
+  display: none;
+}
+
+.display-b {
+  display: block;
+}
+
+.display-f {
+  display: flex;
+}
+
+.display-i {
+  display: inline;
+}
+
+.display-i-b {
+  display: inline-block;
+}
+
+.font-sm {
+  font-size: 0.75rem;
+}
+
+.font-md {
+  font-size: 1rem;
+}
+
+.font-lg {
+  font-size: 1.5rem;
+}
+
+.font-xl {
+  font-size: 2rem;
+}
+
+.font-xxl {
+  font-size: 3rem;
+}
